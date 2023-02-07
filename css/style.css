@@ -442,7 +442,7 @@ button {
 
 .service_img-container .service_img-box.i-box-4 {
   width: 60%;
-  background-image: url(../images/s-4.jpg);
+  background-image: url(../images/cameras2.jpg);
 }
 
 .service_section .service_img-container a,
@@ -526,7 +526,7 @@ button {
 }
 
 .security_section .security_img-box.i-box-1 {
-  background-image: url(../images/security-1.jpg);
+  background-image: url(../images/s-1.jpg);
 }
 
 .security_section .security_img-box.i-box-2 {
@@ -655,7 +655,7 @@ button {
 }
 
 .contact_form-container {
-  background-image: url(../images/guards.jpg);
+  background-image: url(../images/international.jpg);
 }
 
 .contact_form-container form {
@@ -766,23 +766,8 @@ button {
 
 /* end info section */
 
-/* footer section*/
-
-.footer_section {
-  background-color: #254a93;
-  padding: 20px 0;
-  font-family: "Roboto", sans-serif;
+.powr-job-board {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
-
-.footer_section p {
-  color: #fff;
-  margin: 0;
-  text-align: center;
-}
-
-.footer_section a {
-  color: #fff;
-}
-
-/* end footer section*/
-

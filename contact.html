@@ -63,7 +63,7 @@
               <a class="nav-link" href="contact.html">Contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login </a>
+              <a class="nav-link" href="#">Careers </a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -80,7 +80,7 @@
 
 
   <!-- contact section -->
-  <section class="contact_section layout_padding">
+  <section class="contact_section layout_padding-top">
     <div class="container-fluid">
       <div class="row">
         <div class=" col-md-6">
@@ -89,7 +89,7 @@
         </div>
         <div class=" col-md-6 contact_form-container">
           <div class="contact_box">
-            <form action="">
+            <form action="mailto:info@sealsecurity.com">
               <input type="text" placeholder="Your Name">
               <input type="email" placeholder="Email">
               <input type="text" placeholder="Phone Number">
@@ -117,8 +117,7 @@
         <div class=" col-md-4 info_detail">
           <div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable.
+              TX DPS LICENSE # C15942, F01142 
             </p>
           </div>
         </div>
@@ -130,18 +129,18 @@
             <div class="address_link-container">
               <a href="">
                 <img src="images/location.png" alt="">
-                <span> Address: 73 Canal Street, New York, NY
+                <span> 1525 Blalock Rd, Houston, TX 77080
                 </span>
               </a>
               <a href="">
                 <img src="images/phone.png" alt="">
-                <span> Tel: +1 123 456 789
+                <span> Tel: 1-866-949-0895
                 </span>
               </a>
               <a href="">
                 <img src="images/mail.png" alt="">
                 <span>
-                  Email: demo@gmail.com
+                  Email: info@sealsecurity.com 
                 </span>
               </a>
             </div>
@@ -163,21 +162,7 @@
                 </div>
               </form>
             </div>
-            <div class="social_container">
-              <div>
-                <img src="images/fb.png" alt="">
-              </div>
-              <div>
-                <img src="images/twitter.png" alt="">
-              </div>
-              <div>
-                <img src="images/linkedin.png" alt="">
-              </div>
-              <div>
-                <img src="images/youtube.png" alt="">
-              </div>
-            </div>
-          </div>
+            
         </div>
       </div>
     </div>
@@ -237,32 +222,28 @@
     });
   </script>
 
-  <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
+<script>
+  // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+  // Australia.
     function initMap() {
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-      });
+      const seal = { lat: 29.7999194716677742, lng: -95.52489461534212 };
+      const map = new google.maps.Map(document.getElementById("map"), {
+  zoom: 17.5,
+  center: seal,
+});
 
-      var image = 'images/maps-and-flags.png';
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: 40.645037,
-          lng: -73.880224
-        },
-        map: map,
-        icon: image
-      });
-    }
-  </script>
+
+
+
+
+  }
+  
+</script>
   <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
-  </script>
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7kERNKi8XeEyEa6fYuApRRmFF2m53C4I&callback=initMap&v=weekly"
+  defer
+></script>
   <!-- end google map js -->
 
 </body>
