@@ -146,7 +146,7 @@ a:focus {
   display: flex;
   position: relative;
   height: calc(100vh - 90px);
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/homeland.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -155,7 +155,7 @@ a:focus {
   display: flex;
   position: relative;
   height: calc(100vh - 90px);
-  background-image: url(../images/integrity.jpg);
+  background-image: url(../images/cameras2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
